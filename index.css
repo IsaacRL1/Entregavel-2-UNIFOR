@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&family=Inter:wght@300&family=Josefin+Sans:wght@100&family=Permanent+Marker&family=Righteous&family=Roboto+Condensed&family=Source+Code+Pro:wght@600&display=swap');
+
+body{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    padding-left: 500px;
+    padding-top: 300px;
+    color: white;
+}
+
+div{
+    font-family: 'Inter';
+}
+
+section{
+    font-family: 'Inter';
+}
+
+button{
+    background-position: 20px;
+}
+
+fieldset {
+  height: 100px;
+  width: 400px;
+  border-radius: 4px;
+  position: relative;
+  border: 1px solid #091d79;
+
+
+}
