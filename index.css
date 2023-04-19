@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&family=Inter:wght@300&family=Josefin+Sans:wght@100&family=Permanent+Marker&family=Righteous&family=Roboto+Condensed&family=Source+Code+Pro:wght@600&display=swap');
-
 body{
-    background: linear-gradient(90deg, #414d0b 0%, #727a17 100%);
+    background: #044cf4;
     padding-left: 500px;
     padding-top: 300px;
-    color: white;
+    color: black;
     position: relative;
 }
 
@@ -20,19 +19,22 @@ section{
     position: relative;
 }
 
-
 fieldset {
   height: 100px;
   width: 400px;
   border-radius: 4px;
-  position: relative;
   font-family: 'Inter';
+  font-size: larger;
+  border-color: black;
 }
 
 .select{
     height: 50px;
     width: 400px;
     font-family: 'Inter';
+    background-color: transparent;
+    border-color: black;
+    font-size: larger;
 }
 
 .button-ir{
@@ -40,9 +42,38 @@ fieldset {
     width: 429px;
     position: relative;
     border-radius: 4px;
-    
+    font-size: large;
+    font-family: 'Inter';
+    background-color:transparent;
+    border-color: black;
 }
 
-.legend{
-    position: center;
+.logo {
+    height: 20px;
+    width: 30px;
+}
+
+main{
+    padding-left: 10%;
+    position: fixed;
+}
+
+.titulo{
+    padding-left: 11%;
+    color: black;
+}
+
+hr{
+    width: 100%;
+    height: 50%;
+}
+
+.numInicial{
+    font-size: larger;
+    font-family: 'Inter';
+}
+
+.descricao2{
+    font-family: 'Inter';
+    font-size: larger;
 }

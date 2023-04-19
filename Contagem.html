@@ -4,12 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
   <title>Contagem</title>
 </head>
 <body>
-	<h1>Contador</h1>
+	<div>
+		<h1>Contador</h1>
+		<span class="descricao2">Contagem é a ação de determinar o número ou quantidade de elementos de um conjunto de objetos.</span>
+	</div>
+	<br>
 	<form>
-		<label for="numInicial">Digite o número inicial:</label>
+		<label class="numInicial">Digite o número inicial:</label>
 		<input type="number" id="numInicial" name="numInicial"><br><br>
 		<button type="button" onclick="iniciarContagem()">Iniciar contagem</button>
 	</form>
