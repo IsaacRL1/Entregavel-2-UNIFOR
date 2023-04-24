@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&family=Inter:wght@300&family=Josefin+Sans:wght@100&family=Permanent+Marker&family=Righteous&family=Roboto+Condensed&family=Source+Code+Pro:wght@600&display=swap');
 body{
-    background: #044cf4;
+    background-image: linear-gradient(to right, #051937, #00456f, #007681, #00a360, #8ac700);
     padding-left: 500px;
     padding-top: 300px;
-    color: black;
+    color: white;
     position: relative;
 }
 
@@ -25,7 +25,7 @@ fieldset {
   border-radius: 4px;
   font-family: 'Inter';
   font-size: larger;
-  border-color: black;
+  border-color: white;
   position: relative;
 }
 
@@ -34,7 +34,7 @@ fieldset {
     width: 400px;
     font-family: 'Inter';
     background-color: transparent;
-    border-color: black;
+    border-color:white;
     font-size: larger;
 }
 
@@ -46,7 +46,7 @@ fieldset {
     font-size: large;
     font-family: 'Inter';
     background-color:transparent;
-    border-color: black;
+    border-color: white;
 }
 
 .logo {
@@ -60,8 +60,8 @@ main{
 }
 
 .titulo{
-    padding-left: 11%;
-    color: black;
+    padding-left: 12%;
+    color: white;
 }
 
 hr{
