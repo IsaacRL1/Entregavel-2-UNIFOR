@@ -49,11 +49,6 @@ fieldset {
     border-color: white;
 }
 
-.logo {
-    height: 20px;
-    width: 30px;
-}
-
 main{
     padding-left: 10%;
     position: fixed;
